@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="MyLib.Repositories.SqlAnimalRepository">
+    <Position X="3.25" Y="4.5" Width="5.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAEAAAAAAAAAAAAAQAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\SqlAnimalRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MyLib.Repositories.MemoryAnimalRepository">
+    <Position X="3.25" Y="2.25" Width="5.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAEAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\MemoryAnimalRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.1" />
+  </Class>
+  <Class Name="MyLib.Repositories.MemoryAnimalIcadRepository">
+    <Position X="9.25" Y="2.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Repositories\MemoryAnimalIcadRepository.cs</FileName>
+      <NewMemberFileName>Repositories\RestAnimalIcadRepository.cs</NewMemberFileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MyLib.Repositories.RestAnimalIcadRepository">
+    <Position X="9.25" Y="4.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAIAAA=</HashCode>
+      <FileName>Repositories\RestAnimalIcadRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="MyLib.Repositories.Interfaces.IAnimalRepository">
+    <Position X="3.25" Y="0.5" Width="5.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Interfaces\IAnimalRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MyLib.Repositories.Interfaces.IAnimalIcadRepository">
+    <Position X="9.25" Y="0.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Repositories\Interfaces\IAnimalIcadRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="8.83" />
+</ClassDiagram>
